@@ -1,7 +1,6 @@
 backend:
-  name: github
-  repo: kptaszkiewicz/zola-resume
-  branch: master
+  name: git-gateway
+  branch: main
 
 locale: "zh_Hans"
 media_folder: "static/media"
