@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/kptaszkiewicz/zola-resume.git
+  repo: kptaszkiewicz/zola-resume
   branch: master
 
 locale: "zh_Hans"
