@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title>Kamil Ptaszkiewicz</title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://ptaszkiewicz.com/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="https://ptaszkiewicz.com/elasticlunr.min.js" defer></script>
+
+<script src="https://ptaszkiewicz.com/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+<!-- RSS -->
+
+
+  
+
+  
+  
+</head>
+
+<body>
+  <aside id="sidebar" class="menu is-hidden-touch">
+    
+
+<div style="display:block;margin:auto auto 0;padding:.5rem">
+    <figure class="image">
+        <img id="avatar" class="is-rounded" src="https://ptaszkiewicz.com/media/KamilProfilowe.jpg">
+    </figure>
+</div>
+
+
+    
+<ul id="menu" class="menu-list">
+    
+
+<li data-menuanchor="about"><a href="https://ptaszkiewicz.com/#anchor_about">O MNIE</a></li>   
+
+ 
+<li data-menuanchor="skills"><a href="https://ptaszkiewicz.com/#anchor_skills">UMIEJĘTNOŚCI</a></li>
+
+
+<li data-menuanchor="projects"><a href="https://ptaszkiewicz.com/#anchor_projects">PROJEKTY</a></li>
+
+
+
+<li data-menuanchor="publications"><a href="https://ptaszkiewicz.com/#anchor_publications">ARTYKUŁY</a></li>
+
+ 
+<li data-menuanchor="experience"><a href="https://ptaszkiewicz.com/#anchor_experience">DOŚWIADCZENIE</a></li>
+
+ 
+<li data-menuanchor="education"><a href="https://ptaszkiewicz.com/#anchor_education">WYKSZTAŁCENIE</a></li>
+
+ 
+<li data-menuanchor="blog"><a href="https://ptaszkiewicz.com/#anchor_blog">BLOG</a></li>    
+
+</ul>
+
+  </aside>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world"  readonly></textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button" id="copyButton">Copy to clipboard</button>
+    </footer>
+  </div>
+</div>
+
+  <div id="content">
+    <!-- Content -->
+    
+<div id="fullpage">
+  
+  <div class="section hero is-fullheight page" id="about">
+    
+
+<div class="is-flex is-flex-direction-column" style="height: 100%;">
+  <div class="flex: 1;">
+    <h1>Kamil <span class="text-primary">Ptaszkiewicz</span></h1>
+    <h2 class="subtitle">
+      Gorzów Wielkopolski, Lubuskie ·  <a href="mailto:ptaszkiewiczkamil@gmail.com">ptaszkiewiczkamil@gmail.com</a>
+    </h2>
+  </div>
+  <div class="is-flex is-flex-direction-column is-justify-content-center" style="flex: 1; overflow: auto;">
+    <div class="content" style="overflow: auto; padding-top: 1.5rem;">
+      <h3 id="czesc-wave-nazywam-sie-kamil-witaj-na-moim-wirtualnym-cv">Cześć 👋 Nazywam się Kamil. Witaj na moim wirtualnym CV!</h3>
+<h4 id="kilka-slow-o-mnie">Kilka słów o mnie:</h4>
+<p>Od zawsze związany ze sportem i mediami. Na początku jako pasjonat i kibic, a później jako pracownik na stanowiskach związanych z marketingiem i tworzeniem treści.</p>
+<p>Podczas studiów byłem dziennikarzem portalu Ekstraklasa.net (obecnie <a href="https://gol24.pl/">GOL24.pl</a>) oraz ambasadorem marki żużlowej <a href="https://ekstraliga.pl/se">Speedway Ekstraligi</a>. Odbyłem także praktyki w biurze prasowym <a href="https://pogonszczecin.pl/">Pogoni Szczecin</a>.</p>
+<p>Moje największe pasje to:</p>
+<ul>
+<li>🏈 futbol amerykański</li>
+<li>🚴‍♂️ kolarstwo szosowe</li>
+<li>💪 siłownia</li>
+<li>🏃‍♂️ bieganie</li>
+</ul>
+
+    </div>
+    <div class="is-hidden-touch">
+      <h3>Certyfikaty</h3>
+      
+      
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;AlongWY" data-toggle="tooltip" title="Arctic Code Vault Contributor" data-offset="0,10" rel="me">
+        <figure class="image is-64x64">
+          
+          <img src="https:&#x2F;&#x2F;github.githubassets.com&#x2F;images&#x2F;modules&#x2F;profile&#x2F;badge--acv-64.png">
+          
+        </figure>
+      </a>
+      
+      <h3>Sprawdź moje profile na:</h3>
+      
+      
+      <a href="https:&#x2F;&#x2F;instagram.com&#x2F;kptaszkiewicz" style="font-size: 1.75rem;" data-toggle="tooltip" title="Instagram"
+        data-offset="0,10" rel="me">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        
+      <a href="https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;kptaszkiewicz" style="font-size: 1.75rem;" data-toggle="tooltip" title="Linkedin"
+        data-offset="0,10" rel="me">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        
+      <a href="https://ptaszkiewicz.com/mailto://ptaszkiewiczkamil@gmail.com" style="font-size: 1.75rem;" data-toggle="tooltip" title="Strava"
+        data-offset="0,10" rel="me">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fab fa-strava fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        
+    </div>
+  </div>
+</div>
+
+  </div>
+  
+
+  
+  <div class="section hero is-fullheight page" id="skills">
+    
+
+<div class="is-flex is-flex-direction-column is-justify-content-center" style="height: 100%;">
+  <h2>Umiejętności</h2>
+  <div style="overflow: auto;">
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Zarządzanie treścią CMS</h3>
+      <div>
+        
+        
+        <span class="icon"><i class="devicon-wordpress-plain"></i></span>Wordpress
+        
+        
+        
+        <span class="icon"><i class="devicon-sportigio-plain"></i></span>Sportigio
+        
+        
+        
+        <span class="icon"><i class="devicon-publii-plain"></i></span>Publii
+        
+        
+        
+        <span class="icon"><i class="devicon-grav-plain"></i></span>GRAV
+        
+        
+      </div>
+    </div>
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Zarządzanie kanałami social-media</h3>
+      <div>
+        
+        
+        <span class="icon"><i class="devicon-facebook-plain"></i></span>Facebook
+        
+        
+        
+        <span class="icon"><i class="devicon-instagram-plain"></i></span>Instagram
+        
+        
+        
+        <span class="icon"><i class="devicon-linkedin-plain"></i></span>Linkedin
+        
+        
+        
+        <span class="icon"><i class="devicon-x-plain"></i></span>X
+        
+        
+        
+        <span class="icon"><i class="devicon-threads-plain"></i></span>Threads
+        
+        
+        
+        <span class="icon"><i class="devicon-youtube-plain"></i></span>YouTube
+        
+        
+      </div>
+    </div>
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Obsługa programów graficznych</h3>
+      <div>
+        
+        
+        <span class="icon"><i class="devicon-canva-plain"></i></span>Canva
+        
+        
+        
+        <span class="icon"><i class="devicon-photopea-plain"></i></span>Photopea
+        
+        
+        
+        <span class="icon"><i class="devicon-adobe photoshop cc-plain"></i></span>Adobe Photoshop CC
+        
+        
+        
+        <span class="icon"><i class="devicon-pixelmator pro-plain"></i></span>Pixelmator Pro
+        
+        
+        
+        <span class="icon"><i class="devicon-inkscape-plain"></i></span>Inkscape
+        
+        
+      </div>
+    </div>
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Architecture</h3>
+      <div>
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>IP Networking
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>DNS
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Firewalls
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Load Balancing
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Microservices
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>RESTful APIs
+        
+        
+        
+      </div>
+    </div>
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Containers &amp; Cloud</h3>
+      <div>
+        
+        
+        
+        <span class="icon"><i class="devicon-docker-plain"></i></span>Docker
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Aliyun
+        
+        
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  </div>
+  
+
+  
+  <div class="section hero is-fullheight page" id="projects">
+    
+
+<div class="is-flex is-flex-direction-column is-justify-content-center" style="height: 100%;">
+  <h2><a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;projects&#x2F;">projects</a></h2>
+  <div class="is-hidden-touch">
+    <p>A collection of projects authored by ylfeng, and likely shared out with the community as an open source project.</p>
+
+  </div>
+  
+  <div class="pb-6 pt-2" style="overflow: auto;">
+    
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3 class="post-title"><a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;projects&#x2F;notfeed-a-rss-reader-on-github&#x2F;">NotFeed: A RSS Reader on GitHub</a></h3>
+          </div>
+          
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            <span class="post-date">2021-08-28</span>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-row">
+        
+        <div class="content" style="width: 100%;">
+          
+          <figure class="image is-128x128" style="float:left;">
+            
+            <img src="https://ptaszkiewicz.com/media/notcraft.png">
+            
+          </figure>
+          
+          <p>An RSS reader running entirely from your GitHub repo.  <ul>   <li>Free hosting on GitHub Pages. No ads. No third party tracking. </li>   <li>No need for backend. Content updates via GitHub Actions.</li>   <li>Customizable layouts and styles via templating and theming API. Just bring your HTML and CSS. </li>   <li>Free and open source. No third-party tracking.</li> </ul></p>
+
+          <a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;projects&#x2F;notfeed-a-rss-reader-on-github&#x2F;">Read More</a>
+        </div>
+        
+      </div>
+      
+      <div class="tags">
+        
+        <span class="tag"><a href="/tags/rss">RSS</a></span>
+        
+        <span class="tag"><a href="/tags/rust">Rust</a></span>
+        
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3 class="post-title"><a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;projects&#x2F;language-technology-platform&#x2F;">Language Technology Platform</a></h3>
+          </div>
+          
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            <span class="post-date">2021-08-28</span>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-row">
+        
+        <div class="content" style="width: 100%;">
+          
+          <figure class="image is-128x128" style="float:left;">
+            
+            <img src="https://ptaszkiewicz.com/media/ltp.png">
+            
+          </figure>
+          
+          <p>An open-source neural language technology platform supporting six   fundamental Chinese NLP tasks: <ul>   <li>lexical analysis (Chinese word segmentation,   part-of-speech tagging, and named entity recognition)</li>   <li>syntactic parsing   (dependency parsing)</li>   <li>semantic parsing (semantic dependency parsing and   semantic role labeling)</li> </ul></p>
+
+          <a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;projects&#x2F;language-technology-platform&#x2F;">Read More</a>
+        </div>
+        
+      </div>
+      
+      <div class="tags">
+        
+        <span class="tag"><a href="/tags/python">Python</a></span>
+        
+        <span class="tag"><a href="/tags/pytorch">Pytorch</a></span>
+        
+        <span class="tag"><a href="/tags/nlp">NLP</a></span>
+        
+        <span class="tag"><a href="/tags/chinese">Chinese</a></span>
+        
+      </div>
+      
+    </div>
+    
+    
+  </div>
+  
+  <h3><a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;projects&#x2F;">Wait! There's more..</a></h3>
+  
+</div>
+
+  </div>
+  
+
+  
+
+  
+  <div class="section hero is-fullheight page" id="publications">
+    
+
+<div class="is-flex is-flex-direction-column is-justify-content-center" style="height: 100%;">
+  <h2><a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;publications&#x2F;">publications</a></h2>
+  <div class="is-hidden-touch">
+    <p>A collection of articles, presentations or talks, most likely on NLP</p>
+
+  </div>
+  
+  <div class="pb-6 pt-2" style="overflow: auto;">
+    
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3 class="post-title"><a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;publications&#x2F;hit-scir-at-mrp-2020-transition-based-parser-and-iterative-inference-parser&#x2F;">HIT-SCIR at MRP 2020: Transition-based Parser and Iterative Inference Parser</a></h3>
+          </div>
+          
+          <div class="level-item">
+            <a role="button" data-target="copyTarget" aria-haspopup="true"
+              onclick="show_bib('https://ptaszkiewicz.com/media/conll2020.bib')">
+              <span class="tag is-warning">Bibtex</span>
+            </a>
+          </div>
+          
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            <span class="post-date">2020-09-01</span>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-row">
+        
+        <div class="content" style="width: 100%;">
+          
+          <figure class="image is-128x128" style="float:right;">
+            
+            <img src="https://ptaszkiewicz.com/media/acl-logo.svg">
+            
+          </figure>
+          
+          <p>This paper describes our submission system (HIT-SCIR) for the   CoNLL 2020 shared task: Cross-Framework and Cross-Lingual Meaning   Representation Parsing.</br> Our solution consists of two sub-systems: <ul>   <li>transition-based parser for Flavor (1) frameworks   (UCCA, EDS, PTG)</li>   <li>and iterative inference parser for Flavor (2) frameworks   (DRG, AMR)</li> </ul> In the final evaluation, our system is ranked 3rd among the seven team both in Cross-Framework Track and Cross-Lingual Track, with the macro-averaged MRP F1 score of 0.81/0.69.</p>
+
+          <a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;publications&#x2F;hit-scir-at-mrp-2020-transition-based-parser-and-iterative-inference-parser&#x2F;">Read More</a>
+        </div>
+        
+      </div>
+      
+      <div class="tags">
+        
+        <span class="tag"><a href="/tags/acl">ACL</a></span>
+        
+        <span class="tag"><a href="/tags/python">Python</a></span>
+        
+        <span class="tag"><a href="/tags/pytorch">Pytorch</a></span>
+        
+        <span class="tag"><a href="/tags/nlp">NLP</a></span>
+        
+      </div>
+      
+    </div>
+    
+    
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3 class="post-title"><a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;publications&#x2F;n-ltp-a-open-source-neural-chinese-language-technology-platform-with-pretrained-models&#x2F;">N-LTP: A Open-source Neural Chinese Language Technology Platform with Pretrained Models</a></h3>
+          </div>
+          
+          <div class="level-item">
+            <a role="button" data-target="copyTarget" aria-haspopup="true"
+              onclick="show_bib('https://ptaszkiewicz.com/media/nltp.bib')">
+              <span class="tag is-warning">Bibtex</span>
+            </a>
+          </div>
+          
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            <span class="post-date">2021-08-28</span>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-row">
+        
+        <div class="content" style="width: 100%;">
+          
+          <figure class="image is-128x128" style="float:right;">
+            
+            <img src="https://ptaszkiewicz.com/media/acl-logo.svg">
+            
+          </figure>
+          
+          <p>An open-source neural language technology platform supporting six   fundamental Chinese NLP tasks: <ul>   <li>lexical analysis (Chinese word segmentation,   part-of-speech tagging, and named entity recognition)</li>   <li>syntactic parsing   (dependency parsing)</li>   <li>semantic parsing (semantic dependency parsing and   semantic role labeling)</li> </ul></p>
+
+          <a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;publications&#x2F;n-ltp-a-open-source-neural-chinese-language-technology-platform-with-pretrained-models&#x2F;">Read More</a>
+        </div>
+        
+      </div>
+      
+      <div class="tags">
+        
+        <span class="tag"><a href="/tags/emnlp">EMNLP</a></span>
+        
+        <span class="tag"><a href="/tags/python">Python</a></span>
+        
+        <span class="tag"><a href="/tags/pytorch">Pytorch</a></span>
+        
+        <span class="tag"><a href="/tags/demo">Demo</a></span>
+        
+        <span class="tag"><a href="/tags/chinese">Chinese</a></span>
+        
+      </div>
+      
+    </div>
+    
+    
+  </div>
+  
+</div>
+
+  </div>
+  
+
+  
+  <div class="section hero is-fullheight page" id="experience">
+    
+
+<div class="is-flex is-flex-direction-column is-justify-content-center" style="height: 100%;">
+  <h2>Doświadczenie zawodowe</h2>
+  <div style="overflow: auto;">
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Developer</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            September 2019 - NOW
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="http://ir.hit.edu.cn/">HIT Social Computing and Information Retrieval Research Center</a></h2>
+        <div>
+          <a href="https://github.com/HIT-SCIR/ltp">Development Language Technology Platform v4</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Developer</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            July 2019 -  September 2019
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="https://www.yunfutech.com/">Yunfutech</a></h2>
+        <div>
+          Developmet a collections of nlp tools
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Developer</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            July 2018 - September 2018
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="http://wi.hit.edu.cn/">HIT Web Intellegence Lab</a></h2>
+        <div>
+          Implemented English part and management Tool of WI IME
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Developer</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            September 2017 -  December 2017
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="http://ir.hit.edu.cn/">HIT Social Computing and Information Retrieval Research Center</a></h2>
+        <div>
+          <a href="https://github.com/HIT-SCIR/ltp/tree/3.X">Development Language Technology Platform v3</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+
+  </div>
+  
+
+  
+  <div class="section hero is-fullheight page" id="education">
+    
+
+<div class="is-flex is-flex-direction-column is-justify-content-center" style="height: 100%;">
+  <h2>Wykształcenie</h2>
+  <div  style="overflow: auto;">
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3><a href="https://hit.edu.cn">Harbin Institute of Technology</a></h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            2016 - 2020
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle">Computer Science and Technology</h2>
+        <div>
+          Linear algebra, Multivariable calculus, Algorithm
+        </div>
+        <div>
+          Bachelor of Engineering
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3><a href="https://hit.edu.cn">Harbin Institute of Technology</a></h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            2020 - NOW
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle">Computer Science and Technology</h2>
+        <div>
+          Natural language processing
+        </div>
+        <div>
+          Master of Engineering &amp; PhD
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  </div>
+  
+
+  
+  <div class="section hero is-fullheight page" id="blog">
+    
+
+<div class="is-flex is-flex-direction-column is-justify-content-center" style="height: 100%;">
+  <h2><a href="https:&#x2F;&#x2F;ptaszkiewicz.com&#x2F;blog&#x2F;">blog</a></h2>
+  <div class="is-hidden-touch">
+    
+  </div>
+  
+  <div class="pb-6 pt-2" style="overflow: auto;">
+    
+  </div>
+  
+</div>
+
+  </div>
+  
+
+</div>
+
+  </div>
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+</script>
+
+  
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/dist/fullpage.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/vendors/scrolloverflow.min.js"></script>
+<script type="text/javascript">
+    var fullpages = new fullpage('#fullpage', {
+        menu: '#menu',
+        setRecordHistory: false,
+        anchors: [
+             'anchor_about',         
+             'anchor_skills',        
+             'anchor_projects',      
+            
+             'anchor_publications',  
+             'anchor_experience',    
+             'anchor_education',     
+             'anchor_blog',          
+        ],
+        afterResize: function( width, height ){
+		    if (width < 936) {
+                fullpage_api.setAutoScrolling(false);
+            } else {
+                fullpage_api.setAutoScrolling(true);
+            }
+	    }
+    });
+    if (screen.width < 936){
+        fullpages.setAutoScrolling(false);
+    }
+
+</script>
+
+</body>
+
+</html>
