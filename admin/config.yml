@@ -1,7 +1,6 @@
 backend:
   name: github
   repo: https://github.com/kptaszkiewicz/zola-resume.git
-  cms_label_prefix: decap-cms/
   branch: main
 
 locale: "zh_Hans"
