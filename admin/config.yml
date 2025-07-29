@@ -1,5 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: kptaszkiewicz/zola-resume
+  cms_label_prefix: decap-cms/
   branch: main
 
 locale: "zh_Hans"
